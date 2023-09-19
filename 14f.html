@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Double Sidebar</title>
+    <style>
+        body {
+            height: 3000px;
+        }
+
+        * {
+            font-family: Arial;
+        }
+
+        .sidebar1 {
+            background-color: rgb(33, 33, 33);
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            bottom: 0px;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            /* width: 100px; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .picture {
+            height: 60px;
+            width: 60px;
+            object-fit: cover;
+            border-radius: 40px;
+            margin-bottom: 10px;
+        }
+
+        .sidebar2 {
+            background-color: rgb(55, 55, 55);
+            position: fixed;
+            left: 70px;
+            top: 0px;
+            bottom: 0px;
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        .info {
+            font-weight: bold;
+            font-size: 15px;
+            margin-left: 20px;
+        }
+
+        .text {
+            color: rgb(150, 150, 150);
+            margin-left: 20px;
+
+        }
+
+        .icon {
+            color: rgb(150, 150, 150);
+            position: fixed;
+            right: 20px;
+            top: 0px;
+            font-size: 20px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="sidebar1">
+        <img class="picture"
+            src="https://media.istockphoto.com/id/1190660824/photo/fun-horse-3d-illustration.jpg?s=612x612&w=is&k=20&c=qXrZlJXYm-9vLt-t_MaWjR48QYm8YjL7N-dW9LETN5k="
+            alt="">
+        <img class="picture"
+            src="https://media.istockphoto.com/id/655786924/photo/fun-cow-3d-illustration.jpg?s=612x612&w=is&k=20&c=R6u4mCYFfMBoxFpHf2kbKT_Kr_Q6ANA62HCpvxKm9uU="
+            alt="">
+        <img class="picture"
+            src="https://media.istockphoto.com/id/690714784/photo/fun-chicken-3d-illustration.webp?s=612x612&w=is&k=20&c=T6JNz4KAzk7bB62XHlN79VVlNhbf34zU8uLzXpGpCrI="
+            alt="">
+    </div>
+    <div class="sidebar2">
+        <p class="info">INFO</p>
+        <p class="text"># new-videos</p>
+        <p class="text"># Updates</p>
+        <p class="text"># faq</p>
+        <p class="icon">+</p>
+    </div>
+
+
+</body>
+
+</html>
