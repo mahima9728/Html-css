@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Exercise15e</title>
+    <style>
+        .container {
+            display: inline-block;
+            position: relative;
+        }
+
+
+        .image {
+
+            width: 400px;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .time-stamp {
+            font-size: 15px;
+            background-color: black;
+            color: white;
+            position: absolute;
+            border-radius: 3px;
+            top: 10px;
+            right: 0px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .bottom-container {
+            background-color: rgba(255, 255, 255, 0.7);
+            height: 120px;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            left: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .button-cart {
+            font-size: 15px;
+            border: solid;
+            border-width: 0.45px;
+            border-color: black;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    </style>
+
+</head>
+
+<body style="height: 300px;">
+    <div class="container">
+        <img class="image"
+            src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60">
+        <div class="time-stamp">20% OFF</div>
+        <div class="bottom-container">
+            <button class="button-cart">Add to Cart</button>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
