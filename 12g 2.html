@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial;
+            font-size: 10px;
+            font-weight: bold;
+        }
+
+        .container,
+        .container3,
+        .container2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 5px;
+            /* width: 200px;
+            padding-right: 10px; */
+        }
+
+        .image {
+            width: 28px;
+            height: 28px;
+            object-fit: cover;
+            border-radius: 14px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        .description,
+        .popular {
+            font-size: 8px;
+            color: grey;
+
+        }
+
+        .popular {
+            font-size: 8px;
+        }
+
+        .button {
+
+            font-size: 9px;
+            background-color: rgb(31, 99, 155);
+            color: white;
+            height: 20px;
+            width: 50px;
+            border: none;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+
+        .info {
+            padding-right: 70px;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            /* justify-content: center; */
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div><img class="image"
+                src="https://images.unsplash.com/photo-1484406566174-9da000fda645?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=689&q=80"
+                alt=""></div>
+        <div class="info">
+            <p class="name">Oliver</p>
+            <p class="description">the cat</p>
+            <p class="popular">Polpular</p>
+        </div>
+        <button class="button">Follow</button>
+    </div>
+    <div class="container2">
+        <div><img class="image"
+                src="https://plus.unsplash.com/premium_photo-1675432656807-216d786dd468?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=690&q=80"
+                alt=""></div>
+        <div class="info">
+            <p class="name">Absolem</p>
+            <p class="description">the turtle</p>
+            <p class="popular">Polpular</p>
+        </div>
+        <button class="button">Follow</button>
+    </div>
+    <div class="container3">
+        <div><img class="image"
+                src="https://images.unsplash.com/photo-1425082661705-1834bfd09dca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGFuaW1hbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                alt=""></div>
+        <div class="info">
+            <p class="name">Rex</p>
+            <p class="description">happy animal</p>
+            <p class="popular">Polpular</p>
+        </div>
+        <button class="button">Follow</button>
+    </div>
+</body>
+
+</html>
