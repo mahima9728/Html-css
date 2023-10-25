@@ -1,0 +1,131 @@
+<!-- Nested Layouts -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <title>Nested Layouts</title>
+    <style>
+        p {
+            font-family: Arial;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .profile {
+            width: 200px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.50);
+            display: inline-block;
+            margin-left: 20px;
+        }
+
+        .image {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-top: 0px;
+            margin-bottom: 0px;
+
+        }
+
+        .name {
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 5px;
+            margin-left: 8px;
+
+        }
+
+        .friendsrow-div {
+            display: inline-block;
+            margin-top: 3px;
+            margin-left: 8px;
+            margin-bottom: 10px;
+
+        }
+
+        .image1 {
+            width: 28px;
+            height: 28px;
+            border-radius: 14px;
+            object-fit: cover;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 2px;
+        }
+
+
+
+        .friends {
+            font-size: 12px;
+            color: rgb(96, 96, 96);
+            display: inline-block;
+            vertical-align: middle;
+
+        }
+
+        .add-friend {
+            background-color: rgb(24, 119, 242);
+            color: white;
+            border: none;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 12px;
+            padding-right: 12px;
+            border-radius: 3px;
+            font-size: 15px;
+            margin-bottom: 15px;
+            margin-left: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile">
+        <img class="image"
+            src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1443&q=80"
+            alt="image">
+        <p class="name">Oliver</p>
+
+        <div class="friendsrow-div">
+            <img class="image1"
+                src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80">
+            <p class="friends">97 mutual friends</p>
+        </div>
+        <button class="add-friend">Add Friend</button>
+    </div>
+    <div class="profile">
+        <img class="image"
+            src="https://images.unsplash.com/photo-1527153857715-3908f2bae5e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=788&q=80"
+            alt="image">
+        <p class="name">Ryder</p>
+
+        <div class="friendsrow-div">
+            <img class="image1"
+                src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80">
+            <p class="friends">28 mutual friends</p>
+        </div>
+        <button class="add-friend">Add Friend</button>
+    </div>
+    <div class="profile">
+        <img class="image"
+            src="https://images.unsplash.com/photo-1513966007261-5a86a5284471?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80"
+            alt="image">
+        <p class="name">Jack</p>
+
+        <div class="friendsrow-div">
+            <img class="image1"
+                src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80">
+            <p class="friends">09 mutual friends</p>
+        </div>
+        <button class="add-friend">Add Friend</button>
+    </div>
+</body>
+
+</html>
